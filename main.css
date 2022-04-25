@@ -418,6 +418,18 @@ footer {
     .home-main-servicios {
         align-items: center;
     }
+
+    .transicion a {
+        transition: all .3s ease-in-out;
+        animation-name: movimiento-uno;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-duration: 0.5s;
+    }
+
+    .transicion a:hover {
+        text-decoration: underline;
+    }
 }
 
 @media screen and (min-width: 900px) {
