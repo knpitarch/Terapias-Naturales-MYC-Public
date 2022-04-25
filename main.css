@@ -419,16 +419,44 @@ footer {
         align-items: center;
     }
 
+    /* transiciones */
+
     .transicion a {
         transition: all .3s ease-in-out;
-        animation-name: movimiento-uno;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in-out;
-        animation-duration: 0.5s;
     }
 
     .transicion a:hover {
         text-decoration: underline;
+    }
+
+    /* animaciones */
+
+    .animacion {
+        animation-name: animacionuno;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+    }
+
+    @keyframes animacionuno {
+        0% {
+            transform: rotateX(270deg);
+        }
+
+        35% {
+            transform: rotateY(360deg);
+        }
+
+        50% {
+            transform: rotateX(500deg);
+        }
+        
+        75% {
+            transform: rotateZ(650deg);
+        }
+
+        100% {
+            transform: rotateX(360deg);
+        }
     }
 }
 
