@@ -124,9 +124,6 @@ footer {
 
 .index-image {
     max-width: 20rem;
-    border-style: double;
-    border-radius: 0.625rem;
-    border-color: #f546ac;
 }
 
 .header-contenedor-2 {
@@ -152,11 +149,6 @@ nav {
     display: flex;
     justify-content: center;
     text-align: center;
-    background-image: url(assets/fondo-boton.jpg);
-    background-repeat: no-repeat;
-    background-position: 0px;
-    background-size: cover;
-    background-attachment: scroll;
 }
 
 .home-nav ul {
@@ -168,7 +160,7 @@ nav {
     padding: 0.5rem;
 }
 
-.home-nav ul li a {
+.navbar div a {
     text-decoration: none;
     color: #f546ac;
     text-shadow: 2px 2px 2px #0c0c0c;
@@ -394,7 +386,7 @@ footer {
     /* main */
 
     .main-sobre-mi {
-        max-height: 45rem;
+        max-height: 48rem;
     }
 
 }
@@ -495,7 +487,7 @@ footer {
 
     .main-contacto {
         font-size: 1.25rem;
-        height: 23rem;
+        height: 30rem;
     }
 
     .main-somato {

@@ -4,11 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../main.css">
-    <link rel="stylesheet" href="main.css">
+  
+    <!-- fuentes de texto -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap" rel="stylesheet">
+    
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="../main.css">
+
     <title>Terapias Naturales MYC | Sobre Mi</title>
 </head>
 <body class="grid-estandar">
@@ -26,52 +33,72 @@
 
                     <h3 class="center">Maria Claudia Garderes</h2>
                 </div>
-                <div>
-                    <img class="index-image margin-top" src="../assets/claudia.jpg" alt="Claudia foto">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="../assets/claudia.jpg" class="d-block w-100 index-image" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../assets/claudia2.png" class="d-block w-100 index-image" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../assets/consultorio2.jpg" class="d-block w-100 index-image" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
     </header>
 
-    <nav class="home-nav margin-top">
-
-        <ul>
-            
-            <li>
-                <a href="../index.html">Home</a>
-            </li>
-            <li>
-                <a href="terapia.html">Terapias</a>
-            </li>
-            <li>
-                <a href="sobre-mi.html">Sobre Mi</a>
-            </li>
-            <li>
-                <a href="contacto.html">Contacto</a>
-            </li>
-
-        </ul>
-        
-    </nav>
+    <nav class="navbar margin-top navbar-expand-lg navbar-light bg-light center">
+        <div class="container-fluid center">
+          <a class="navbar-brand" href="../index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse center" id="navbarNavAltMarkup">
+            <div class="navbar-nav center">
+              <a class="nav-link active" aria-current="page" href="terapia.html">Terapia</a>
+              <a class="nav-link" href="sobre-mi.html">Sobre mi</a>
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
 
     <main class="main-sobre-mi">
-        <section>
+        <section class="container">
 
-            <h4 class="sobre-mi-titulo margin-top-bottom">Sobre mi</h4>
+            <div class="row">
 
-            <img class="claudia-image-sobre-mi" src="../assets/sobre-mi-image.jpg" alt="claudia image 2">
+                <div class="col">
+                    <h4 class="sobre-mi-titulo margin-top-bottom">Sobre mi</h4>
 
-            <p class="sobre-mi-parrafo parrafos margin-top-bottom">¡Hola! mi nombre es Clau y quiero darle la bienvenida a mi página web donde encontraras diferentes terapias naturales alternativas.
-            Mi propósito es ayudarte a que encuentres <span>TU BIENESTAR</span> en forma natural y profesional.
-            Siempre fui y soy un amante respetuosa de la Naturaleza, siempre me interesó como en nuestros antepasados vivían en forma natural, encontrando respuestas en las plantas milenarias y todo lo que la madre tierra nos ofrece, también soy una ferviente creyente e incansable investigadora con respecto a las energías vibracionales; creo en las emociones que están ligadas a nuestro nivel físico; como nuestra mente puede crear nuestras enfermedades, también como somos los creadores de nuestra propia historia, como nuestro mente es tan sabio que tiene su propia sabiduría de autocuración.
-            Por eso me dedico incansablemente al estudio de todas las terapias naturales para cuidar a nuestro cuerpo sin tantos psicofármacos y medicamentos buscando, diferentes respuestas naturales, obteniendo excelentes resultados.
-            amo mi profesión porque esta es mi forma de elección de vida y amo mucho más podes ayudar, acompañar a mis pacientes a encontrar soluciones Naturales para su bienestar.
-            Mi formacion es: soy terapeuta, facilitadora de técnicas <span>PSICO-HOMEOPATICAS DE BIENESTAR del SISTEMA DR EDWARD BACH</span> del Insituto Argentino de Flores de Bach, del Instituto Hahnemanniano Internacional.
-            Reikista master.
-            Masajista-esteticista profesional-matricula-21-178-76-310-Instituto Cosmetologico Dayloplas.
-            Reflexologa podal. Centro profesional N.S.
-            Tecnica en Somato-Emocional. Los Siete Soles.
-            MTC. Acupuntura. Escuela Los Tres Tesoros
-            </p>
+                    <img class="claudia-image-sobre-mi" src="../assets/sobre-mi-image.jpg" alt="claudia image 2">
+
+                    <p class="sobre-mi-parrafo parrafos margin-top-bottom">¡Hola! mi nombre es Clau y quiero darle la bienvenida a mi página web donde encontraras diferentes terapias naturales alternativas.
+                    Mi propósito es ayudarte a que encuentres <span>TU BIENESTAR</span> en forma natural y profesional.
+                    Siempre fui y soy un amante respetuosa de la Naturaleza, siempre me interesó como en nuestros antepasados vivían en forma natural, encontrando respuestas en las plantas milenarias y todo lo que la madre tierra nos ofrece, también soy una ferviente creyente e incansable investigadora con respecto a las energías vibracionales; creo en las emociones que están ligadas a nuestro nivel físico; como nuestra mente puede crear nuestras enfermedades, también como somos los creadores de nuestra propia historia, como nuestro mente es tan sabio que tiene su propia sabiduría de autocuración.
+                    Por eso me dedico incansablemente al estudio de todas las terapias naturales para cuidar a nuestro cuerpo sin tantos psicofármacos y medicamentos buscando, diferentes respuestas naturales, obteniendo excelentes resultados.
+                    amo mi profesión porque esta es mi forma de elección de vida y amo mucho más podes ayudar, acompañar a mis pacientes a encontrar soluciones Naturales para su bienestar.
+                    Mi formacion es: soy terapeuta, facilitadora de técnicas <span>PSICO-HOMEOPATICAS DE BIENESTAR del SISTEMA DR EDWARD BACH</span> del Insituto Argentino de Flores de Bach, del Instituto Hahnemanniano Internacional.
+                    Reikista master.
+                    Masajista-esteticista profesional-matricula-21-178-76-310-Instituto Cosmetologico Dayloplas.
+                    Reflexologa podal. Centro profesional N.S.
+                    Tecnica en Somato-Emocional. Los Siete Soles.
+                    MTC. Acupuntura. Escuela Los Tres Tesoros
+                    </p>
+                </div>
+
+            </div>
+
         </section>
 
     </main>
@@ -95,6 +122,8 @@
 
     </footer>
 
+    <!-- java -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>
 </html>
