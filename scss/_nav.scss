@@ -1,0 +1,27 @@
+/* Nav */
+
+nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.home-nav {
+    
+    ul {
+        list-style-type: none;
+    }
+
+    li {
+        display: inline-block;
+        padding: 0.5rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: #f546ac;
+        text-shadow: 2px 2px 2px #0c0c0c;
+        font-family: 'Send Flowers', sans-serif;
+        font-size: 1.625rem;
+    }
+}

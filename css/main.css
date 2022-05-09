@@ -1,0 +1,418 @@
+/* Nav */
+nav {
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+
+.home-nav ul {
+  list-style-type: none; }
+
+.home-nav li {
+  display: inline-block;
+  padding: 0.5rem; }
+
+.home-nav a {
+  text-decoration: none;
+  color: #f546ac;
+  text-shadow: 2px 2px 2px #0c0c0c;
+  font-family: 'Send Flowers', sans-serif;
+  font-size: 1.625rem; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #FFD1DC; }
+
+/* clases generales */
+.margin-top {
+  margin-top: 2rem; }
+
+.parrafos {
+  line-height: 1.8rem; }
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Send Flowers', sans-serif;
+  text-shadow: 2px 2px 2px #ffffff;
+  color: #f546ac; }
+
+h2 {
+  text-align: center;
+  font-family: 'Send Flowers', sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  text-shadow: 2px 2px 2px #ffffff;
+  color: #f546ac; }
+
+h3 {
+  text-align: center;
+  font-family: 'Send Flowers', sans-serif;
+  font-weight: bold;
+  font-size: 31px;
+  text-shadow: 2px 2px 2px #ffffff;
+  color: #f546ac; }
+
+.margin-top-bottom {
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+.margin-bottom {
+  margin-bottom: 2rem; }
+
+.center {
+  text-align: center; }
+
+.images {
+  max-width: 20rem; }
+
+.border1 {
+  border-style: solid;
+  border-color: red; }
+
+.border2 {
+  border-style: solid;
+  border-color: green; }
+
+.border3 {
+  border-style: solid;
+  border-color: blue; }
+
+.border4 {
+  border-style: solid;
+  border-color: yellow; }
+
+/* grid - index */
+.grid-estandar {
+  display: grid;
+  grid-template-areas: "header" "nav" "main" "footer";
+  justify-content: center; }
+
+header {
+  grid-area: header;
+  max-height: 150rem; }
+
+nav {
+  grid-area: nav;
+  max-height: 20rem; }
+
+main {
+  grid-area: main;
+  max-height: 800rem; }
+
+footer {
+  grid-area: footer;
+  max-height: 200rem; }
+
+/* header */
+.logo {
+  max-width: 20rem; }
+
+.index-image {
+  max-width: 20rem; }
+
+.header-contenedor-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+  text-align: center;
+  display: flex;
+  text-shadow: 2px 2px 2px #010101;
+  color: #f546ac; }
+
+.header-contenedor-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+/* main */
+.home-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .home-main img {
+    margin-bottom: 2rem;
+    width: 20rem;
+    height: 20rem;
+    padding-top: 2rem; }
+
+.home-main-servicios {
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+  .home-main-servicios a {
+    background-image: url(assets/fondo-boton.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: 0.0625rem;
+    border: solid 0.1875rem #000000;
+    border-style: double;
+    border-radius: 0.625rem;
+    padding: 0.8rem;
+    text-decoration: none;
+    font-family: 'Send Flowers', sans-serif;
+    color: #f546ac;
+    font-size: 1.625rem; }
+
+/* footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; }
+
+.instagram {
+  margin-top: 2rem; }
+
+.facebook {
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+/* terapias - main */
+.terapias-main {
+  display: grid;
+  grid-template-columns: 20rem;
+  grid-template-rows: 15rem 25rem 20rem 50rem;
+  justify-content: center;
+  height: 115rem;
+  align-content: space-between; }
+  .terapias-main h3 {
+    margin-bottom: 2rem;
+    margin-top: 2rem; }
+  .terapias-main ul {
+    list-style-type: none; }
+    .terapias-main ul ol {
+      list-style-type: none; }
+  .terapias-main li {
+    padding: 0.25rem; }
+
+.terapias-main-video {
+  width: 20rem; }
+
+/* flores de bach main */
+.flores-de-bach-h4 {
+  text-align: center;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Send Flowers', sans-serif;
+  text-shadow: 2px 2px 2px #ffffff;
+  color: #f546ac; }
+
+.flores-de-bach-h5 {
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Send Flowers', sans-serif;
+  text-shadow: 2px 2px 2px #ffffff;
+  color: #f546ac; }
+
+.flores-de-bach-parrafo {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  font-family: Verdana, Tahoma, sans-serif; }
+
+/* masajes terapeuticos main */
+.masajes-terapeuticos-parrafo {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  font-family: Verdana, Tahoma, sans-serif; }
+
+/* reflexologia podal main */
+.reflexologia-parrafo {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  font-family: Verdana, Tahoma, sans-serif; }
+
+/* sobre mi main */
+.claudia-image-sobre-mi {
+  width: 250px;
+  height: 300px;
+  display: block;
+  margin: auto;
+  border: #f546ac;
+  border-radius: 10px;
+  border-style: double;
+  border-width: 6px; }
+
+.sobre-mi-parrafo {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Verdana, Tahoma, sans-serif; }
+  .sobre-mi-parrafo span {
+    color: #f546ac;
+    text-shadow: 2px 2px 2px #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.sobre-mi-titulo {
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Send Flowers', sans-serif;
+  text-shadow: 2px 2px 2px #ffffff;
+  color: #f546ac; }
+
+/* contacto main */
+.email span {
+  color: #f546ac;
+  text-shadow: 2px 2px 2px #ffffff;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+/* somato emocional main */
+.somato-parrafo {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  font-family: Verdana, Tahoma, sans-serif; }
+
+/* reiki main */
+.reiki-parrafo {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  font-family: Verdana, Tahoma, sans-serif; }
+
+/* acupuntura main */
+.acupuntura-parrafo {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  font-family: Verdana, Tahoma, sans-serif; }
+
+/* media queries */
+@media screen and (min-width: 1440px) {
+  /* main */
+  .main-sobre-mi {
+    max-height: 48rem; } }
+
+@media screen and (min-width: 1024px) {
+  /* main */
+  main {
+    font-size: 1.25rem;
+    height: 80rem; }
+  .home-main {
+    display: grid;
+    grid-template-columns: repeat(2, 25rem);
+    grid-template-rows: repeat(3, 25rem);
+    justify-content: center; }
+  .home-main-servicios {
+    align-items: center; }
+  /* transiciones */
+  .transicion a {
+    transition: all .3s ease-in-out; }
+  .transicion a:hover {
+    text-decoration: underline; }
+  /* animaciones */
+  .animacion {
+    animation-name: animacionuno;
+    animation-iteration-count: infinite;
+    animation-duration: 5s; }
+  @keyframes animacionuno {
+    0% {
+      transform: rotateX(270deg); }
+    35% {
+      transform: rotateY(360deg); }
+    50% {
+      transform: rotateX(500deg); }
+    75% {
+      transform: rotateZ(650deg); }
+    100% {
+      transform: rotateX(360deg); } } }
+
+@media screen and (min-width: 900px) {
+  main {
+    font-size: 1.25rem;
+    height: 50rem; }
+  .home-main {
+    font-size: 1.25rem;
+    height: auto; }
+  .main-flores {
+    font-size: 1.25rem;
+    height: 21rem; }
+  .main-masajes {
+    font-size: 1.25rem;
+    height: 10rem; }
+  .main-podal {
+    font-size: 1.25rem;
+    height: 8rem; }
+  .main-sobre-mi {
+    font-size: 1.25rem;
+    height: 58rem; }
+  .main-contacto {
+    font-size: 1.25rem;
+    height: 30rem; }
+  .main-somato {
+    font-size: 1.25rem;
+    height: 15rem; }
+  .main-reiki {
+    font-size: 1.25rem;
+    height: 8rem; }
+  .main-acupuntura {
+    font-size: 1.25rem;
+    height: 14rem; }
+  .terapias-main {
+    display: grid;
+    grid-template-areas: "terapias videos" "china videos" "servicios servicios";
+    justify-content: center;
+    max-height: 70rem; }
+  section#terapias {
+    grid-area: terapias; }
+  section#servicios {
+    grid-area: servicios; }
+  section#servicios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5rem; }
+  section#china {
+    grid-area: china; }
+  section#videos {
+    grid-area: videos; } }
+
+@media screen and (min-width: 768px) {
+  /* footer */
+  footer {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 5rem; }
+  .instagram {
+    margin-bottom: 2rem; }
+  /* main contacto */
+  .form-1 {
+    display: flex;
+    justify-content: center; }
+    .form-1 .form-1-2 {
+      padding: 5px; }
+    .form-1 .form-1-3 {
+      padding: 5px; }
+  .form-2 {
+    display: flex;
+    justify-content: center;
+    padding: 5px; }
+  .form-3 {
+    display: flex;
+    justify-content: center;
+    align-self: center; }
+    .form-3 .form-3-1 {
+      padding: 15px; }
+    .form-3 .form-3-2 {
+      padding: 15px; } }
