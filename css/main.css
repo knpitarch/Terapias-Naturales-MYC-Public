@@ -147,7 +147,7 @@ footer {
   flex-direction: column;
   text-align: center; }
   .home-main-servicios a {
-    background-image: url(assets/fondo-boton.jpg);
+    background-image: url(../assets/fondo-boton.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
