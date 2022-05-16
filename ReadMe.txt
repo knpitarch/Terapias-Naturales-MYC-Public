@@ -1,0 +1,11 @@
+index// "Agregado de favicon, keywords, description"
+contacto// "Agregado de favicon, keywords, description"
+flores de bach// "Agregado de favicon, keywords, description"
+masajes terapeuticos// "Agregado de favicon, keywords, description"
+mtc acupuntura// "Agregado de favicon, keywords, description"
+reflexologia podal// "Agregado de favicon, keywords, description"
+reiki// "Agregado de favicon, keywords, description"
+sobre mi// "Agregado de favicon, keywords, description", "agregado extend"
+somato emocional// "Agregado de favicon, keywords, description"
+terapia// "Agregado de favicon, keywords, description"
+main.css// "Agregado extend, maps, mixins" (import de variables.scss)

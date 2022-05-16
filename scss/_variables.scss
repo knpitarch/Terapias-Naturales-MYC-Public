@@ -1,1 +1,42 @@
 $color-primary: #FFD1DC;
+
+// maps
+
+$sombras: (
+    h1: 2px 2px 1px #ffffff,
+    h2: 2px 2px 3px #ffffff,
+    h3: 2px 1px 1px #ffffff,
+);
+
+@each $titulos, $text-shadow in $sombras {
+    .titulos-#{$titulos} {
+        text-shadow: $text-shadow;
+    }
+}
+
+// extend
+
+.sobre-mi-parrafo {
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.sobre-mi-parrafo2 {
+    @extend .sobre-mi-parrafo;
+    text-shadow: 2px 2px 2px #ffffff;
+}
+
+// mixins
+
+@mixin texto($sombratexto, $estiloletra, $grandorletra) {
+    text-shadow: $sombratexto;
+    font-style: $estiloletra;
+    font-size: $grandorletra;
+
+}
+
+div {
+    @include texto(2px 2px 2px #ffffff, bold, 16px)
+}

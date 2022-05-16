@@ -1,3 +1,30 @@
+/* Maps */
+.titulos-h1 {
+  text-shadow: 2px 2px 1px #ffffff; }
+
+.titulos-h2 {
+  text-shadow: 2px 2px 3px #ffffff; }
+
+.titulos-h3 {
+  text-shadow: 2px 1px 1px #ffffff; }
+
+/* Extends */
+.sobre-mi-parrafo, .sobre-mi-parrafo2 {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Verdana, Tahoma, sans-serif; }
+
+.sobre-mi-parrafo2 {
+  text-shadow: 2px 2px 2px #ffffff; }
+
+
+/* Mixins */
+div {
+  text-shadow: 2px 2px 2px #ffffff;
+  font-style: bold;
+  font-size: 16px; }
+
 /* Nav */
 nav {
   display: flex;
@@ -39,7 +66,6 @@ h1 {
   font-style: italic;
   font-weight: bold;
   font-family: 'Send Flowers', sans-serif;
-  text-shadow: 2px 2px 2px #ffffff;
   color: #f546ac; }
 
 h2 {
@@ -47,7 +73,6 @@ h2 {
   font-family: 'Send Flowers', sans-serif;
   font-weight: bold;
   font-size: 35px;
-  text-shadow: 2px 2px 2px #ffffff;
   color: #f546ac; }
 
 h3 {
@@ -55,7 +80,6 @@ h3 {
   font-family: 'Send Flowers', sans-serif;
   font-weight: bold;
   font-size: 31px;
-  text-shadow: 2px 2px 2px #ffffff;
   color: #f546ac; }
 
 .margin-top-bottom {
@@ -90,7 +114,10 @@ h3 {
 /* grid - index */
 .grid-estandar {
   display: grid;
-  grid-template-areas: "header" "nav" "main" "footer";
+  grid-template-areas: "header"
+ "nav"
+ "main"
+ "footer";
   justify-content: center; }
 
 header {
@@ -249,12 +276,12 @@ footer {
   border-style: double;
   border-width: 6px; }
 
-.sobre-mi-parrafo {
+.sobre-mi-parrafo, .sobre-mi-parrafo2 {
   font-size: 16px;
   text-align: center;
   font-weight: bold;
   font-family: Verdana, Tahoma, sans-serif; }
-  .sobre-mi-parrafo span {
+  .sobre-mi-parrafo span, .sobre-mi-parrafo2 span {
     color: #f546ac;
     text-shadow: 2px 2px 2px #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif; }
@@ -371,7 +398,9 @@ footer {
     height: 14rem; }
   .terapias-main {
     display: grid;
-    grid-template-areas: "terapias videos" "china videos" "servicios servicios";
+    grid-template-areas: "terapias videos"
+ "china videos"
+ "servicios servicios";
     justify-content: center;
     max-height: 70rem; }
   section#terapias {
