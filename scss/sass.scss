@@ -159,7 +159,29 @@ footer {
     }
 }
 
+// wpp anim
 
+.wpp {
+    display: flex;
+    justify-content: right;
+    position: sticky;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.wppanim {
+    animation-name: rotar;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 4s; 
+}
+      
+@keyframes rotar {
+    0% {
+     transform: rotateY(0deg); }
+    100% {
+    transform: rotateY(360deg); } }
 
 .home-main-servicios {
     display: flex;
@@ -330,6 +352,17 @@ footer {
     }
 }
 
+.maps {
+    justify-content: center;
+    display: flex;
+
+    iframe {
+        height: 300px;
+        width: 300px;
+    }
+    
+}
+
 /* somato emocional main */
 
 .somato-parrafo {   
@@ -360,6 +393,31 @@ footer {
     font-family: Verdana, Tahoma, sans-serif;
 }
 
+/* wpp movible */
+
+.wppheader {
+    display: none;
+}
+
+.wppheader {
+    animation-name: animation-1;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    padding: 1.5rem; }
+  
+  @keyframes animation-1 {
+    0% {
+      opacity: 100%; }
+    25% {
+      opacity: 75%; }
+    50% {
+      opacity: 50%;
+      transform: rotateY(360deg); }
+    75% {
+      opacity: 75%; }
+    100% {
+      opacity: 100%; } }
 
 /* media queries */
 
@@ -411,33 +469,48 @@ footer {
         
     }
 
-    /* animaciones */
+    .instagram {
 
-    .animacion {
-        animation-name: animacionuno;
-        animation-iteration-count: infinite;
-        animation-duration: 5s;
+        img {
+            transition: all .2s ease-in-out;
+            filter: grayscale(2);
+        }
     }
 
-    @keyframes animacionuno {
-        0% {
-            transform: rotateX(270deg);
-        }
+    .instagram {
 
-        35% {
-            transform: rotateY(360deg);
+        img:hover {
+            filter: grayscale(0);
         }
+    }
 
-        50% {
-            transform: rotateX(500deg);
-        }
-        
-        75% {
-            transform: rotateZ(650deg);
-        }
+    .facebook {
 
-        100% {
-            transform: rotateX(360deg);
+        img {
+            transition: all .2s ease-in-out;
+            filter: grayscale(2);
+        }
+    }
+
+    .facebook {
+
+        img:hover {
+            filter: grayscale(0);
+        }
+    }
+
+    .whatsapp {
+
+        img {
+            transition: all .2s ease-in-out;
+            filter: grayscale(2);
+        }
+    }
+
+    .whatsapp {
+
+        img:hover {
+            filter: grayscale(0);
         }
     }
 }
@@ -477,7 +550,7 @@ footer {
 
     .main-contacto {
         font-size: 1.25rem;
-        height: 30rem;
+        height: 53rem;
     }
 
     .main-somato {
@@ -578,5 +651,16 @@ footer {
         .form-3-2 {
             padding: 15px;
         }
+    }
+
+    .maps {
+        iframe {
+        width: 70%;
+        }  
+    } 
+
+    .wppheader {
+        display: inline-block;
+        position: fixed;
     }
 }
